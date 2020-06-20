@@ -4,11 +4,44 @@
         <meta charset="utf-8">
         <meta name="author" content="Mul-Bak-Sa">
         <meta name="description" content="Welcome to my kakao clone">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>This is my title</title>
-        <link href="styles.css" rel="stylesheet">
+        <!-- <link href="styles.css" rel="stylesheet"> -->
+        <style>
+            body,html{
+                height : 100%;
+                margin : 0;
+                padding : 0;
+            }
+            body{
+                height:400%;
+                background-color: red;
+            }
+            #boxOne{
+                height:300px;
+                width:300px;
+                background-color: yellow;
+                /* position:static; */
+            }
+            #boxTwo{
+                height:300px;
+                width:300px;
+                background-color: green;
+                display: inline-block;
+                /* position:fiexd; */
+                /* bottom:10px; */
+                /* left:400px; */
+            }
+        </style>
     </haed>
 
     <body>
-        <h1>Contact Me please</h1>
+        <div id="boxOne">
+            <div class="box-child"></div>
+        </div>
+        <div id="boxTwo">
+            <div class="box-child"></div>
+        </div>
+        <!-- <h1>Contact Me please</h1> -->
     </body>
 </html>
