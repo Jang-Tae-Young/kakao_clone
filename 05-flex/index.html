@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <haed>
+        <meta charset="utf-8">
+        <meta name="author" content="Mul-Bak-Sa">
+        <meta name="description" content="Welcome to my kakao clone">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Flex Example</title>
+        <!-- <link href="styles.css" rel="stylesheet"> -->
+        <style>
+            html,body{
+                height : 100%;
+                margin : 0;
+                padding : 0;
+            }
+            
+            .father{
+                display:flex;
+                justify-content: center;
+                align-items: flex-start;
+                height:100%;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .box{
+                width:400px;
+                height:400px;
+                background-color: yellowgreen;
+                border:2px solid black;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                color:white;
+            }
+        </style>
+    </haed>
+
+    <body>
+
+        <div class="father">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+        </div>
+
+    </body>
+</html>
