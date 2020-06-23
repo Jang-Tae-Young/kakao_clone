@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <haed>
+        <meta charset="utf-8">
+        <meta name="author" content="Mul-Bak-Sa">
+        <meta name="description" content="Welcome to my kakao clone">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Animation Example</title>
+        <!-- <link href="styles.css" rel="stylesheet"> -->
+        <style>
+            .box{
+                width:400px;
+                height:400px;
+                background-color: greenyellow;
+                animation: 1.5s my_animation ease-in-out infinite;
+            }
+
+            @keyframes my_animation{
+                /* from{
+                    transform:none;
+                }
+                to{
+                    transform: rotate(5turn) scale(0.5, 0.5);
+                } */
+
+                0%{
+                    transform:none;
+                }
+                50%{
+                    transform: rotate(5turn) scale(0.5, 0.5);
+                }
+                100%{
+                    transform:none;
+                }
+
+            }
+
+
+        </style>   
+    </haed>
+
+    <body>
+        <div class="box">
+            Text
+        </div>
+    </body>
+</html>
+
+
+
